@@ -1,1 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title> Module 2 Solution </title>
 
+<link rel="stylesheet" href="css.css">
+
+<style>
+
+
+/*Simple Responsive Framework*/
+
+.row {width: 100%;}
+
+/*Large devices only*/
+
+@media (min-width: 992px) 
+{
+  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
+    float: left;
+  }
+  .col-lg-1 {width: 8.33%;}
+  .col-lg-2 {width: 16.66%;}
+  .col-lg-3 {width: 25%;}
+  .col-lg-4 {width: 33.33%;}
+  .col-lg-5 {width: 41.66%;}
+  .col-lg-6 {width: 50%;}
+  .col-lg-7 {width: 58.33%;}
+  .col-lg-8 {width: 66.66%;}
+  .col-lg-9 {width: 74.99%;}
+  .col-lg-10 {width: 83.33%;}
+  .col-lg-11 {width: 91.66%;}
+  .col-lg-12 {width: 100%;}
+}
+
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
+    float: left;
+  }
+  .col-md-1 {width: 8.33%;}
+  .col-md-2 {width: 16.66%;}
+  .col-md-3 {width: 25%;}
+  .col-md-4 {width: 33.33%;}
+  .col-md-5 {width: 41.66%;}
+  .col-md-6 {width: 50%;}
+  .col-md-7 {width: 58.33%;}
+  .col-md-8 {width: 66.66%;}
+  .col-md-9 {width: 74.99%;}
+  .col-md-10 {width: 83.33%;}
+  .col-md-11 {width: 91.66%;}
+  .col-md-12 {width: 100%;}
+}
+
+</style>
+</head>
+
+<body>
+<h1> Our Menu </h1>
+
+<div class="row">
+	<div class ="col-lg-4 col-md-6">
+			<div id="container"> Pork is pig meat. It is fat and juicy. If you want to get fat, eat pork. If you want to be halal, don't eat pork. I like my pork with a good crackling on the skin. If the pork skin is jelly-like, that is just gross. I like my pork fat rendered so good that it just becomes a nice pork oil that coats my food. Now that is my type of pork.
+				<p id="p2">  PORK </p>
+			</div>
+			
+	</div>
+
+	<div class ="col-lg-4 col-md-6">
+			<div id="container"> Beef is love. Beef is life. Not if it's tough. I like my beef steak medium rare. I would like to try a rare one but I'm afraid I would get a mad cow disease. And I'm crazy and mad enough. I love sukiyaki beef with sweet onions coated over white rice. I love barbeque beef that melts straight away when I eat it. I love beef in general. 
+				<p id="p1"> BEEF </p>
+			</div>
+	</div>
+
+	<div class ="col-lg-4 col-md-12">
+			<div id="container"> I like my sushi with salmon sashimi. Yes it's raw. But does it taste good? Absolutely. I don't like avocado on my sushi because I don't like fruits. I'm also not a big fan of cucumber but I gotta admit it gives a nice refreshing crunch to my californian roll sushi. There are lots of good sushi around my city but they're so expensive. Guess I should start making some myself.
+				<p id="p3"> SUSHI </p>
+			</div>
+	</div>
+
+</div>
